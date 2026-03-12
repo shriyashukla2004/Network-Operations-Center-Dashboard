@@ -1,11 +1,11 @@
-#📡 AI-Powered Network Operations Center (NOC) Dashboard
+## 📡 AI-Powered Network Operations Center (NOC) Dashboard
 
 A real-time network monitoring and analytics platform designed to simulate a telecom-style Network Operations Center (NOC).
 The system collects network telemetry, detects anomalies using machine learning, and visualizes network health through an interactive Streamlit dashboard.
 
 This project demonstrates concepts used in telecom monitoring systems, infrastructure analytics, and network automation platforms.
 
-🚀 Features
+**🚀 Features**
 📊 Real-Time Network Monitoring
 
 Device status tracking (UP/DOWN)
@@ -14,7 +14,7 @@ Latency monitoring across network nodes
 
 Automated data collection pipeline
 
-🧠 AI-Based Network Analytics
+**🧠 AI-Based Network Analytics**
 
 Anomaly detection using Isolation Forest
 
@@ -22,13 +22,13 @@ Identifies abnormal latency spikes
 
 Early detection of potential network failures
 
-📡 Network Topology Visualization
+**📡 Network Topology Visualization**
 
 Interactive topology graph using NetworkX + PyVis
 
 Visual representation of network infrastructure
 
-📈 Advanced Data Visualization
+**📈 Advanced Data Visualization**
 
 Latency trend analysis using Plotly
 
@@ -36,25 +36,25 @@ Network latency heatmap analytics
 
 Device performance metrics
 
-🚨 Alert System
+**🚨 Alert System**
 
 Detects abnormal network behavior
 
 Displays real-time alerts in the NOC dashboard
 
-📜 Network Logs
+**📜 Network Logs**
 
 Historical telemetry storage using SQLite
 
 Log inspection for network troubleshooting
 
-🔄 Real-Time Dashboard
+**🔄 Real-Time Dashboard**
 
 Auto-refresh monitoring every few seconds
 
 NOC-style monitoring interface built with Streamlit
 
-🏗 System Architecture
+**🏗 System Architecture**
 
 The platform follows a network telemetry pipeline architecture similar to enterprise monitoring systems.
 
@@ -74,7 +74,8 @@ Analytics Engine
       │
       ▼
 Streamlit NOC Dashboard
-📂 Project Structure
+
+**📂 Project Structure**
 network-noc-dashboard
 
 app.py                     # Main application entry point
@@ -95,49 +96,22 @@ data/
 topology.py                # Network topology builder
 
 requirements.txt           # Project dependencies
-🛠 Tech Stack
-Category	Technologies
-Dashboard	Streamlit
-Visualization	Plotly, PyVis
-Graph Modeling	NetworkX
-Data Processing	Pandas
-Database	SQLite
-Machine Learning	Scikit-learn
-Networking	Python ICMP telemetry
-⚙ Installation
 
-Clone the repository:
+**🛠 Tech Stack**
+Dashboard - Streamlit
+Visualization - Plotly, PyVis
+Graph Modeling - NetworkX
+Data Processing - Pandas
+Database - SQLite
+Machine Learning - Scikit-learn
+Networking - Python ICMP telemetry
 
-git clone https://github.com/yourusername/network-noc-dashboard.git
-cd network-noc-dashboard
+## The dashboard will be available at:
 
-Create virtual environment:
+**http://localhost:8501/**
 
-python -m venv .venv
 
-Activate environment:
-
-Windows
-
-.venv\Scripts\activate
-
-Mac/Linux
-
-source .venv/bin/activate
-
-Install dependencies:
-
-pip install -r requirements.txt
-▶ Running the Dashboard
-
-Start the Streamlit application:
-
-streamlit run app.py
-
-The dashboard will be available at:
-
-http://localhost:8501
-📊 Dashboard Overview
+**📊 Dashboard Overview**
 
 The NOC dashboard provides:
 
@@ -153,7 +127,7 @@ Network heatmap analytics
 
 Historical telemetry logs
 
-🧠 Machine Learning Component
+**🧠 Machine Learning Component**
 
 The system uses Isolation Forest for anomaly detection.
 
@@ -169,7 +143,7 @@ infrastructure instability
 
 This approach mimics real-world telemetry anomaly detection used in telecom networks.
 
-📈 Example Use Cases
+**📈 Example Use Cases**
 
 This platform can simulate monitoring scenarios such as:
 
@@ -181,7 +155,7 @@ telecom network performance monitoring
 
 network anomaly detection research
 
-📌 Future Improvements
+**📌 Future Improvements**
 
 Potential enhancements include:
 
@@ -197,7 +171,7 @@ real-time streaming telemetry
 
 role-based access control
 
-🎯 Learning Outcomes
+**🎯 Learning Outcomes**
 
 This project demonstrates practical knowledge of:
 
