@@ -1,4 +1,4 @@
-## 📡 AI-Powered Network Operations Center (NOC) Dashboard
+## 📡 Network Operations Center (NOC) Dashboard
 
 A real-time network monitoring and analytics platform designed to simulate a telecom-style Network Operations Center (NOC).
 The system collects network telemetry, detects anomalies using machine learning, and visualizes network health through an interactive Streamlit dashboard.
