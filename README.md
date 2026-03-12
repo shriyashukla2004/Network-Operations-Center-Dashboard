@@ -185,9 +185,7 @@ data visualization for network operations
 
 real-time dashboard development
 
-👩‍💻 Author
+**👩‍💻 Author**
 
 Shriya Shukla
-
-B.Tech – Computer Science
-Data Analytics & Machine Learning Enthusiast
+B.Tech – Electronics & Computer Science
