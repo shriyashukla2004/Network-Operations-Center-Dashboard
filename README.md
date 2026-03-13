@@ -97,6 +97,10 @@ topology.py                # Network topology builder
 
 requirements.txt           # Project dependencies
 
+**Screenshot of the Dashboard**
+
+
+
 **🛠 Tech Stack**
 Dashboard - Streamlit
 Visualization - Plotly, PyVis
